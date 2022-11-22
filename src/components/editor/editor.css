@@ -1,0 +1,60 @@
+.editor-container {
+  border-bottom: 1px solid #000000af;
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+}
+
+.middle-code {
+  border-left: 1px solid #ffffff1f;
+  border-right: 1px solid #ffffff1f;
+}
+
+.code {
+  height: fill-available;
+  background-color: #1e1e1e;
+  overflow: auto;
+}
+
+.middle-title {
+  border-left: 1px solid #002884;
+  border-right: 1px solid #002884;
+}
+
+.editor-title {
+  display: flex;
+  justify-content: space-between;
+  height: 48px;
+  padding-inline-start: 16px;
+  padding-inline-end: 16px;
+  line-height: 48px;
+  background-color: #3f50b5;
+  color: #ffffffde;
+}
+
+.close {
+  background: #0000;
+  border-radius: 50%;
+  border-width: 0px;
+  color: #ce93d8;
+  height: 24px;
+  margin: 12px 0 12px 0;
+  padding: 0px;
+  width: 24px;
+}
+
+/* Ripple effect */
+.ripple {
+  background-position: center;
+  transition: background 0.8s;
+}
+.ripple:hover {
+  cursor: pointer;
+}
+
+.ripple:active {
+  /* color: #9c64a6; */
+  background-color: #757ce8;
+  background-size: 100%;
+  transition: background 0s;
+}
